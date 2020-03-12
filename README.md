@@ -1,4 +1,7 @@
 # TreasureHunt
+## Run all tests:
+python -m pytest
+
 ## Run OOP tests:
 python -m pytest oop/tests/
 
