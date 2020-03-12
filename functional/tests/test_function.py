@@ -14,6 +14,6 @@ def test_matrix():
     target_result = [11, 55, 15, 21, 44, 32, 13, 25, 43]
 
     treasure_solver = get_treasure_solver(initial_array)
-    result = treasure_solver(11)
+    result = treasure_solver()
 
     assert result == target_result
